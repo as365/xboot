@@ -16,7 +16,6 @@ public class BeansConfiguration {
 
     @Bean
     public PathMatcher pathMatcher(){
-
         return new AntPathMatcher();
     }
 }
